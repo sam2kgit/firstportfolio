@@ -2,6 +2,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
+    
 
 }
 nav>ul{
@@ -17,6 +19,7 @@ nav a{
     text-decoration: none;
     color: #474747;
     
+    
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -27,6 +30,8 @@ font-size: 45px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+
+
 }
 .orange{
     color: #FD6E0A;
@@ -42,4 +47,50 @@ line-height: normal;
    
    
 
+}
+.header{
+    background-color: #FFF8F3;
+}
+.text1{
+    
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    color: #474747;
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-content: center;
+
+}
+.text2{
+    color: var(--Dark-01, #181818);
+
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+
+}
+.para{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.dwn{
+    color: white;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+
+}
+.hardy{
+    width: 584px;
+height: 676px;
 }
